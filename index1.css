@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    max-width: 300px; 
+}
+
+button {
+    cursor: pointer; 
+}
+
+#title_text { 
+    margin-top: 0px; 
+    display: inline; 
+    font-family: Helvetica, sans-serif;
+    font-weight: 700px; 
+    font-size: 20px; 
+    text-shadow: 0px 0px 5px white;  
+    color:#4C4C4C;
+
+}
+
+#second_word {
+    color:  #15C39A; 
+    font-weight: bold; 
+}
+#title {
+    margin-top: 10px; 
+    display: flex; 
+}
+
+#front_page_icon {
+    margin-right: 10px;
+    margin-left: 10px; 
+    width: 20px; 
+    height: 20px;
+}
+
+#front_page_hr {
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin-top: 0px; 
+    margin-bottom: 20px; 
+}
+
+#input-patient {
+    background-color: #FFFFD2;
+    width: 100%; 
+    margin-top: 12px; 
+    box-sizing: border-box;
+    padding: 10px; 
+    border: 1px solid #15C39A;
+    outline: none; 
+}
+
+#delete-btn {
+    background: white; 
+    color: #15C39A; 
+    width: 120px; 
+    height: 36px; 
+    max-width: 120px; 
+    max-height: 36px;  
+    font-weight: bold; 
+    border: 1px solid #15C39A; 
+    margin-top: 10px; 
+    border-radius: 3px; 
+}
+
+#save-tab {
+    background: #15C39A;
+    color: white; 
+    width: 120px; 
+    height: 36px; 
+    max-width: 120px; 
+    max-height: 36px;  
+    font-weight: bold; 
+    border: none; 
+    margin-top: 10px; 
+    border-radius: 3px; 
+}
+
+#list {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;    
+}
+
+li{
+    color: black; 
+    margin-top: 5px; 
+}
+
+a {
+    color: black; 
+}
+
+#return-btn{
+    color: #15C39A;
+    margin-left: 35px; 
+    margin-top: 5px; 
+    width: 50px;
+    height: 20px; 
+    font-size: 12px;  
+}

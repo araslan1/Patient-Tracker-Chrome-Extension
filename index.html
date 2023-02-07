@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id ="temp_background">
+            <div id="title">
+                <img id="front_page_icon" src="icon.jpg">
+                <h3 id="title_text">Patient <span id="second_word">Tracker</span></h3>
+            </div> 
+            <div id ="front_page_hr"></div>
+            <img id="front_page_image" src="main_page.png"> 
+            <input placeholder="Enter Patient ID/Name" id="input-patient" type="text">
+            <div id = "error_message">
+            </div>
+            <div id = "bottom_page">
+                <div id ="patient_list">
+                    <button id="patient_list_selector">Patient List<span><img id="drop_down_icon" src="drop_down_icon.png"></span></button>
+                    <div class="btn-group">
+
+                    </div>
+                </div>
+                <div class="margin-left80">
+                    <button id="save-patient-btn">Save Patient</button>
+                    <button id="delete_all">Delete All</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

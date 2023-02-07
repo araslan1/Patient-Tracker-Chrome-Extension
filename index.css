@@ -1,0 +1,156 @@
+
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    max-width: 300px; 
+}
+/* 
+#temp_background {
+} */
+
+button {
+    cursor: pointer; 
+}
+
+#title_text { 
+    margin-top: 0px; 
+    display: inline; 
+    font-family: Helvetica, sans-serif;
+    font-weight: 700px; 
+    font-size: 20px; 
+    text-shadow: 0px 0px 5px white;  
+    color:#4C4C4C;
+
+}
+
+#second_word {
+    color:  #15C39A; 
+    font-weight: bold; 
+}
+#title {
+    margin-top: 10px; 
+    display: flex; 
+}
+
+#front_page_icon {
+    margin-right: 10px;
+    margin-left: 10px; 
+    width: 20px; 
+    height: 20px;
+}
+
+#front_page_hr {
+    border-top: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+    margin-top: 0px; 
+    margin-bottom: 20px; 
+}
+
+#front_page_image {
+    margin-top: 0px; 
+    width: 297px; 
+}
+
+#input-patient {
+    background-color: #FFFFD2;
+    width: 100%; 
+    margin-top: 12px; 
+    box-sizing: border-box;
+    padding: 10px; 
+    border: 1px solid #15C39A;
+    outline: none; 
+}
+
+/* #input-patient::placeholder {
+    change color 
+} */
+
+#save-patient-btn {
+    background: #15C39A;
+    color: white; 
+    width: 120px; 
+    height: 36px; 
+    max-width: 120px; 
+    max-height: 36px;  
+    font-weight: bold; 
+    border: none; 
+    margin-top: 10px; 
+    border-radius: 3px; 
+}
+
+#patient_list {
+    display: flex; 
+    flex-direction: column; 
+    width: 100px; 
+    margin-top: 10px;
+}
+#patient_list_selector{
+    width: 120px; 
+    border: 1px solid black; 
+    border-radius: 10px; 
+    margin-bottom: 0px; 
+}
+
+#bottom_page {
+    display: flex; 
+    justify-content: center ; 
+}
+
+.margin-left80{
+    margin-left: 80px; 
+}
+
+#delete_all {
+    background: white; 
+    color: #15C39A; 
+    width: 120px; 
+    height: 36px; 
+    max-width: 120px; 
+    max-height: 36px;  
+    font-weight: bold; 
+    border: 1px solid #15C39A; 
+    margin-top: 10px; 
+    border-radius: 3px; 
+}
+
+#drop_down_icon{
+    width: 10px; 
+    margin-left: 20px; 
+}
+
+.btn-group {
+    margin-top: 5px; 
+    display: inline; 
+}
+
+.btn-group button {
+    margin: 0px; 
+    margin-left: 10px; 
+    overflow: hidden; 
+    background-color: #FFFFD2;
+    border: 1px solid black;  /* Green border */
+    color: black;
+    text-shadow: 0px 0px 5px white; 
+    height: 20px;
+    width: 100px; /* Set a width if needed */
+}
+  
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+  
+  /* Add a background color on hover */
+.btn-group button:hover {
+    background-color: white;
+}
+
+.error {
+    font-size: 12px; 
+    color: red; 
+    margin: 0;
+    margin-top: 5px; 
+    margin-left: 5px; 
+}
